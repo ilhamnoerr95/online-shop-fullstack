@@ -30,6 +30,14 @@ apps/backend/e-commerce/dist/
 apps/backend/e-commerce/build/
 apps/backend/e-commerce/.temp/
 apps/backend/e-commerce/.tmp/
+apps/backend/profile/dist/
+apps/backend/profile/build/
+apps/backend/profile/.temp/
+apps/backend/profile/.tmp/
+apps/backend/payment/dist/
+apps/backend/payment/build/
+apps/backend/payment/.temp/
+apps/backend/payment/.tmp/
 
 # ==================================================
 # General Build / Test Output
