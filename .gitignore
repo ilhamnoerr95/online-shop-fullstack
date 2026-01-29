@@ -26,10 +26,10 @@ apps/frontend/next-env.d.ts
 # ==================================================
 # Backend (NestJS / Node)
 # ==================================================
-apps/backend/dist/
-apps/backend/build/
-apps/backend/.temp/
-apps/backend/.tmp/
+apps/backend/e-commerce/dist/
+apps/backend/e-commerce/build/
+apps/backend/e-commerce/.temp/
+apps/backend/e-commerce/.tmp/
 
 # ==================================================
 # General Build / Test Output

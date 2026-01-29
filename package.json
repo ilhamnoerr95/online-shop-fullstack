@@ -2,6 +2,7 @@
   "name": "turbo pack full stack ",
   "workspaces": [
     "apps/*",
+    "apps/*/*",
     "packages/*"
   ],
   "scripts": {
