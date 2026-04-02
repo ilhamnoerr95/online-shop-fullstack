@@ -1,12 +1,28 @@
 ### PRISMA SCHEMA
-1. put on all schema in 1 folder = pakcages, that make easier setup for schema db:
+
+prisma schema is in each service.
+
+### PRISMA CLI
+
+frequently used cli prisma
+
 ```bash
-packages/
-    prisma/
-        prisma-commerce/
-            schema.prisma
-        prisma-profile/
-            schema.prisma
-        prisma-payment/
-            schema.prisma
+#  create client from schema
+npx prisma generate
+
+# important Migrate
+npx prisma migrate dev --name bebas
+
+# reset database
+npx prisma migrate reset
+
+#open prisma studio
+npx prisma studio
+
+# validate config
+npx prisma validate
 ```
+
+### NEST CLIE
+
+frequently used NEST cli

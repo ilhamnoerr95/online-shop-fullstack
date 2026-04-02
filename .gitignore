@@ -26,10 +26,10 @@ apps/frontend/next-env.d.ts
 # ==================================================
 # Backend (NestJS / Node)
 # ==================================================
-apps/backend/e-commerce/dist/
-apps/backend/e-commerce/build/
-apps/backend/e-commerce/.temp/
-apps/backend/e-commerce/.tmp/
+apps/backend/commerce/dist/
+apps/backend/commerce/build/
+apps/backend/commerce/.temp/
+apps/backend/commerce/.tmp/
 apps/backend/profile/dist/
 apps/backend/profile/build/
 apps/backend/profile/.temp/
@@ -38,6 +38,10 @@ apps/backend/payment/dist/
 apps/backend/payment/build/
 apps/backend/payment/.temp/
 apps/backend/payment/.tmp/
+
+apps/backend/commerce/generated/prisma
+apps/backend/profile/generated/prisma
+apps/backend/payment/generated/prisma
 
 # ==================================================
 # General Build / Test Output
@@ -112,3 +116,5 @@ lerna-debug.log*
 # Diagnostic Reports
 # ==================================================
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+/generated/prisma
